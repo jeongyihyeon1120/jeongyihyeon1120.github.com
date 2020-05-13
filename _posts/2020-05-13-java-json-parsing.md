@@ -2,7 +2,7 @@
 layout: post
 title:  "Parsing JSON with Java"
 date:   2020-5-13 10:20:00 +0700
-categories: [Java, freemarker]
+categories: [Java]
 ---
 Json으로 제공된 마스크 api를 자바로 파싱함
 
