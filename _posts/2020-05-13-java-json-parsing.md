@@ -306,7 +306,7 @@ public class MaskSales extends MaskShow {
 
 #### Sales과 Store을 합쳐서 코드가 같은것 끼리 묵어 재고와 주소를 확인시켜준다. (본인이 코드 합침)
 
-**MaskShowInput**
+**MaskInfoInput**
 
 ```java
 package maskApi;
@@ -343,7 +343,7 @@ public class InputMaskShow {
 }
 ```
 
-**MaskShow**
+**MaskInfo**
 
 ```java
 package maskApi;
