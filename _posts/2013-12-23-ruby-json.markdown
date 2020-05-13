@@ -28,3 +28,20 @@ public class Main {
 }
 
 ```
+
+마스크 api 에 sales, stores 정보 2개가 있어서  추상클래스 생성
+
+**abstract class**
+
+```java
+package maskApi;
+
+public abstract class MaskShow {
+
+	public abstract void maskInfoShow();
+	
+}
+
+```
+
+
