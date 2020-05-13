@@ -1,20 +1,20 @@
-title: Link #博客标题
-description: Just 4 Fun. #博客描述
-keywords: blog,css,html,php #博客关键字
-author: "Link"
+title: YI HYEON
+description: MY BLOG
+keywords: java, python, Ai
+author: "tailron"
 
 #title hide and show
-hide: (つェ⊂)我藏好啦
-show: ´∇｀ 呀被发现啦~ 
+hide: (�겇�궒�뒄)�닊�뿈也썲븽
+show: 쨈�늾節� ��熬ュ룕�렟�븽~ 
 
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "hydrogen.atlinker.cn" # change this to the base hostname & protocol for your site
-buildtime: "1514736000" #博客建立时的时间戳 可进入https://tool.lu/timestamp/将博客建立时的日期转换成时间戳
+buildtime: "1514736000" #�뜗若℡뻠塋뗦뿶�쉪�뿶�뿴�댊 �룾瓦쎾뀯https://tool.lu/timestamp/弱녶뜗若℡뻠塋뗦뿶�쉪�뿥�쐿饔ф뜟�닇�뿶�뿴�댊
            #The timestamp at the time of blog establishment can be entered at https://tool.lu/timestamp/to convert the date at the time of blog establishment into a timestamp.
 
-PJAX: true #启用PJAX，会与评论系统冲突（如不用评论系统建议开启）
+PJAX: true #�맦�뵪PJAX竊뚥폏訝롨칱溫븀내瀯잌넳囹곻펷倻귚툖�뵪瑥꾥�븀내瀯잌뻠溫�凉��맦竊�
 
-paginate: 8 #同时显示的最大文章数，超过自动分页
+paginate: 8 #�릪�뿶�샑鹽븀쉪��鸚㎪뻼塋졿빊竊뚩텈瓦뉓눎�뒯�늽窈�
 paginate_path: "page:num"
 
 background: https://api.dujin.org/bing/1920.php
