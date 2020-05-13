@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "Parsing JSON with Java"
+date:   2020-5-13 9:41
+categories: [Java, freemarker]
+---
+Json으로 제공된 마스크 api를 자바로 파싱함
+
+**Main code**
+
+```java
+package maskApi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+//		mShow(new MaskStore());
+//		mShow(new MaskSales());
+		mShow(new MaskInfo());
+		
+	}
+
+	private static void mShow(MaskShow maskShow) {
+		// TODO Auto-generated method stub
+		maskShow.maskInfoShow();
+	}
+}
+
+```
+
+마스크 api 에 sales, stores 등 정보 3개가 있어서  추상클래스 생성
+
+**abstract class**
+
+```java
+package maskApi;
+
+public abstract class MaskShow {
+
+	public abstract void maskInfoShow();
+	
+}
+
+```
+
+
+
+
