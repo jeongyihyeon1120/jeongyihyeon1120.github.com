@@ -7,7 +7,7 @@ categories: [Java, freemarker]
 
 **Mask API 추상클래스로 여러 기능 구현**
 
-**Main Class**
+**Main Class1**
 
 ```java
 package maskApi;
