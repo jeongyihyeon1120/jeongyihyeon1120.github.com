@@ -2,11 +2,11 @@
 layout: post
 title:  "Welcome to Simply Grey"
 date:   2013-12-23 00:18:23 +0700
-categories: [jekyll]
+categories: [jekyll, java]
 ---
 SimplyGrey is a simple, easy to use theme for Jekyll that compromises of mainly grey colours. A lot of people enjoy the simplistic look of grey and also find it easier to read.
 
-## Why use Simply Grey? HI
+## Why use Simply Grey?
 There are lots of reasons why I think you should use Simply Grey but I will list the main ones that I believe are more of benefit to you, the user.
 
 +	<em>Easy to use and setup</em> - Jekyll has a huge range of documentation to get you started writing posts and the Simply Grey theme makes your blog look beautiful.
