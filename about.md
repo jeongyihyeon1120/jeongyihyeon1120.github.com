@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
+자바와 파이썬을 할 수 있음
 
-email: agus[at]python.web.id
+email: tailron1120@gmail.com
