@@ -4,7 +4,11 @@ title: About
 permalink: /about/
 ---
 
+<<<<<<< HEAD
 #### Tagline
+=======
+자바와 파이썬을 할 수 있다.
+>>>>>>> refs/remotes/origin/master
 
 Your tagline.
 
