@@ -6,36 +6,25 @@ categories: [Java, freemarker]
 ---
 Json으로 제공된 마스크 api를 자바로 파싱함
 
-{% highlight ruby %}
-#!/usr/bin/env ruby
+**Main code**
 
-require 'json'
-require 'net/http'
-require 'libnotify'
+```
+package maskApi;
 
-def parsejson
-    file = "http://api.openweathermap.org/data/2.5/find?q=London&mode=json"
-    response = Net::HTTP.get_response(URI.parse(file))
-    weatherjson = response.body
-    actual = JSON.parse(weatherjson)
+public class Main {
 
-    # check for errors
-    if actual.has_key? 'Error'
-        raise "error with the url"
-    end
+	public static void main(String[] args) {
+		
+//		mShow(new MaskStore());
+//		mShow(new MaskSales());
+		mShow(new MaskInfo());
+		
+	}
 
-    results = []
+	private static void mShow(MaskShow maskShow) {
+		// TODO Auto-generated method stub
+		maskShow.maskInfoShow();
+	}
+}
 
-    actual["list"].each do |listitem|
-        weather = listitem["weather"]
-        weather.each do |weath|
-            results.push(weath["description"])
-        end
-        main = listitem["main"]
-        temp = main["temp"] - 273.15
-        results.push ("%.2f" % temp)
-    end
-
-    return results
-end
-{% endhighlight %}
+```
