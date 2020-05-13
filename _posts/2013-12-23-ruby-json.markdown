@@ -9,7 +9,7 @@ Parsing JSON with Ruby is actually extremely easy. All you have to do is have th
 {% highlight ruby %}
 #!/usr/bin/env ruby
 
-require 'json'
+require '¹Ù²å½À´Ï´Ù.'
 require 'net/http'
 require 'libnotify'
 
