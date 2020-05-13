@@ -5,9 +5,10 @@ date:   2020-05-13 10:15:00 +0700
 categories: [Java, freemarker]
 ---
 
-##Mask API 추상클래스로 여러 기능 구현##
+**Mask API 추상클래스로 여러 기능 구현**
 
-##Main Class##
+**Main Class**
+
 ```java
 package maskApi;
 
@@ -28,7 +29,8 @@ public class Main {
 }
 ```
 
-##Abstract Class##
+**Abstract Class**
+
 ```java
 package maskApi;
 
@@ -39,7 +41,8 @@ public abstract class MaskShow {
 }
 ```
 
-##MaskSales##
+**MaskSales**
+
 마스크 재고 상태를 보여줌
 
 ```java
@@ -111,7 +114,8 @@ public class MaskSales extends MaskShow {
 }
 ```
 
-##InputSales##
+**InputSales**
+
 ```java
 package maskApi;
 
@@ -155,7 +159,8 @@ public class InputSales {
 }
 ```
 
-##MaskStore##
+**MaskStore**
+
 주소를 알려주고 약국에서 인지 우체국에서 파는지 알려줌
 
 ```java
@@ -235,7 +240,8 @@ public class MaskStore extends MaskShow {
 }
 ```
 
-##InputStore##
+**InputStore**
+
 ```java
 package maskApi;
 
@@ -296,7 +302,8 @@ public class InputStore {
 }
 ```
 
-##MaskInfo##
+**MaskInfo**
+
 재고상태와 주소를 알려줌 (Sales와 Store 믹싱)
 
 ```java
@@ -412,7 +419,8 @@ public class MaskInfo extends MaskShow {
 }
 ```
 
-##InputMaskInfo##
+**InputMaskInfo**
+
 ```java
 package maskApi;
 
