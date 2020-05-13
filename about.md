@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-ÀÚ¹Ù¿Í ÆÄÀÌ½ãÀ» ÇÒ ¼ö ÀÖÀ½
+ìë°”ì™€ íŒŒì´ì¬ì„ í•  ìˆ˜ ìˆë‹¤.
 
 email: tailron1120@gmail.com
