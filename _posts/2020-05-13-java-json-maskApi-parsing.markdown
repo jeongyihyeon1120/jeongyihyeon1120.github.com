@@ -78,8 +78,7 @@ public class MaskSales extends MaskShow {
 			InputSales is = null;
 			ArrayList<String> salesInfos = new ArrayList<String>();
 			Document doc = Jsoup.connect(
-					"https://8oi9s0nnth.apigw.ntruss.com/corona19-masks/v1/sales/json?page=" + request.params("page"))
-					.ignoreContentType(true).get();
+					"https://8oi9s0nnth.apigw.ntruss.com/corona19-masks/v1/sales/json?page=" + request.params("page")).ignoreContentType(true).get();
 			String body = doc.getElementsByTag("body").text();
 			try {
 				JSONParser parser = new JSONParser();
@@ -163,7 +162,7 @@ public class InputSales {
 
 주소를 알려주고 약국에서 인지 우체국에서 파는지 알려줌
 
-```java
+```
 package maskApi;
 
 import static spark.Spark.get;
@@ -195,8 +194,8 @@ public class MaskStore extends MaskShow {
 			InputStore is = null;
 			ArrayList<String> storeInfos = new ArrayList<String>();
 			Document doc = Jsoup.connect(
-					"https://8oi9s0nnth.apigw.ntruss.com/corona19-masks/v1/stores/json?page=" + request.params("page"))
-					.ignoreContentType(true).get();
+					"https://8oi9s0nnth.apigw.ntruss.com/corona19-masks/v1/stores/json?page=" + 						request.params("page"))
+						.ignoreContentType(true).get();
 			String body = doc.getElementsByTag("body").text();
 			try {
 				JSONParser parser = new JSONParser();
