@@ -5,7 +5,7 @@ date:   2020-09-10 11:30:00 +0700
 categories: [java, rabbitmq, nodeJs]
 ---
 
-### 자바 서버코드가 rabbitmq를 이용하여 nodejs서버로 정버 송신###
+### 자바 서버코드가 rabbitmq를 이용하여 nodejs서버로 정버 송신
 
 **Main**
 

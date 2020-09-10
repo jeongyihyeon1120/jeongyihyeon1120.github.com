@@ -4,7 +4,7 @@ title:  "Connection NodeJS With RabbitMQ"
 date:   2020-09-10 11:40:00 +0700
 categories: [rabbitmq, nodeJs, socket.io, ejs]
 ---
-### RabbitMQ를 통해 자바서버의 정보를 얻어 웹을 연다###
+### RabbitMQ를 통해 자바서버의 정보를 얻어 웹을 연다
 
 ```javascript
 var express = require('express');

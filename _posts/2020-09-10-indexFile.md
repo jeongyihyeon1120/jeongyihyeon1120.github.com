@@ -5,7 +5,7 @@ date:   2020-09-10 12:10:00 +0700
 categories: [HTML, JavaScript, jQuery]
 ---
 
-### NodeJs가 연결한 index.ejs###
+### NodeJs가 연결한 index.ejs
 
 **코드**
 
