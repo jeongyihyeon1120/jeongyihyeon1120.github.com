@@ -6,7 +6,7 @@ categories: [rabbitmq, nodeJs, socket.io, ejs]
 ---
 ### RabbitMQ를 통해 자바서버의 정보를 얻어 웹을 연다###
 
-```nodejs
+```javascript
 var express = require('express');
 var app = express();
 var io = require('socket.io').listen(30002);
